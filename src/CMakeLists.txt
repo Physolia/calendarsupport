@@ -23,7 +23,6 @@ target_sources(KF5CalendarSupport PRIVATE
   tagcache.cpp
   plugin.cpp
   urihandler.cpp
-  kdatepickerpopup.cpp
 
   printing/calprintpluginbase.cpp
   printing/calprintdefaultplugins.cpp
@@ -49,7 +48,6 @@ target_sources(KF5CalendarSupport PRIVATE
   noteeditdialog.h
   attachmenthandler.h
   eventarchiver.h
-  kdatepickerpopup.h
   printing/printplugin.h
   printing/calprintpluginbase.h
   printing/journalprint.h
@@ -142,7 +140,6 @@ ecm_generate_headers(CalendarSupport_CamelCase_HEADERS
   MessageWidget
   ArchiveDialog
   NoteEditDialog
-  KDatePickerPopup
   UriHandler
   REQUIRED_HEADERS CalendarSupport_HEADERS
   PREFIX CalendarSupport
